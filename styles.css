@@ -2,23 +2,24 @@
         box-sizing: border-box; 
         margin: 0;
 }
+
+
+/* when I actually removed those things it gave me red syntax warning thing, no effect on performance */
 /* take out text-align, border, border-top */
 header{
         font-family: 'Open Sans', sans-serif;
-        text-align: left;   
+        /* text-align: left;    */
         margin: 0px;
         padding: 30px;
         font-size: 20px;
-        border: none;
-        border-top: 5px;
+        /* border: none; */
+        /* border-top: 5px; */
         border-bottom: 5px;
         border-bottom-color: #89DEEF;
         background-color: #004175;
         color: white;
         border-style: solid;
 }
-
-
 
 .adopt {
         font-family: 'Open Sans', sans-serif;
@@ -30,8 +31,6 @@ header{
 
 }
 
-
-
 .card-container{
         display: flex;
         flex-wrap: wrap;
@@ -39,13 +38,13 @@ header{
 
 
 }
-
+/* when I actually removed those things it gave me red syntax warning thing, no effect on performance*/
 /* remove display, border */
 #card{
-        display: inline-block;
+        /* display: inline-block; */
         font-family: 'Open Sans', sans-serif;
         width: 30%;
-        border: 10px;
+        /* border: 10px; */
         padding-bottom: 50px;
 }
 
@@ -64,7 +63,7 @@ li{
         margin: 2px;
         font-size: 15px;
 }
-
+/* wanted to put the linear gradient background here but I think you have to put them together otherwise one would override the other. Tried it and it was a total */
 footer {
         height: 300px;
         display: flex;
