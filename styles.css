@@ -4,7 +4,7 @@
 }
 
 
-/* when I actually removed those things it gave me red syntax warning thing, no effect on performance */
+/* when I actually removed those things it gave me red syntax warning thing in VSC, no effect on performance */
 /* take out text-align, border, border-top */
 header{
         font-family: 'Open Sans', sans-serif;
@@ -38,7 +38,7 @@ header{
 
 
 }
-/* when I actually removed those things it gave me red syntax warning thing, no effect on performance*/
+/* when I actually removed those things it gave me red syntax warning thing in VSC, no effect on performance*/
 /* remove display, border */
 #card{
         /* display: inline-block; */
@@ -63,7 +63,7 @@ li{
         margin: 2px;
         font-size: 15px;
 }
-/* wanted to put the linear gradient background here but I think you have to put them together otherwise one would override the other. Tried it and it was a total */
+/* wanted to put the linear gradient background here but I think you have to put them together otherwise one would override the other. Tried it and it was a total failure*/
 footer {
         height: 300px;
         display: flex;
